@@ -1,0 +1,78 @@
+.header {
+	font-family: 'Roboto';
+	color: white;
+  background-color: #2962FF;
+  text-align: center;
+  height: 193px;
+  border-radius: 0.5px;
+  border-color: #82B1FF;
+  padding-top: 5px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 6px;   
+}
+
+.menu {
+  width: 200px;
+  margin: auto;
+  padding-left: 5px;
+  border-right: none;
+  text-align: center;
+  color: #798795;
+  border-radius: 6px;
+}
+
+blockquote .small, blockquote footer, blockquote small {
+  background-color: #2962FF;
+}
+
+@media screen and (max-width: 370px) {
+  .header {
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .header {
+    height: 275px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .header {
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .header {
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .header {
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .header {
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .jumbotron {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 911px) {
+  .jumbotron {
+    margin-left: 0px;
+  }
+}
+
